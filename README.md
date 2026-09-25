@@ -1,25 +1,31 @@
-# ARTIQ MVP
+# ARTIQ Intelligence — Shareable Product Prototype
 
-A zero-install clickable prototype for an art-investment comps and professional-evaluation platform.
+ARTIQ Intelligence is an interactive front-end concept for an evidence-first art-market intelligence platform.
 
-## Run
-Open `index.html` in any modern browser.
+## Product surfaces
+- Object intake + image/metadata matching concept
+- Provenance graph and documentation gaps
+- Condition timeline
+- Explainable comparable-sale ranking
+- Valuation bridge with specialist override
+- Art Market Copilot research experience
+- Enterprise specialist workbench and audit trail
+- Collection intelligence and consignment opportunity workflow
+- Investor portfolio and professional evaluation request
 
-## Included
-- Investor dashboard
-- Artwork intake
-- Comparable sales table
-- Valuation range and purchase-price analysis
-- Professional evaluation request workflow
-- Portfolio tracking
-- Sample expert evaluation report
+## Important prototype boundaries
+All artwork records, comps, values, confidence scores, provenance events, collection metrics and reports in this demo are illustrative sample data. ARTIQ does not authenticate artwork from imagery and automated outputs are not formal appraisals or guarantees of sale price. Production formal appraisal workflows should be completed by appropriately qualified professionals.
 
-## Production roadmap
-1. Replace demo comps with licensed auction/sales data.
-2. Add authentication, PostgreSQL, encrypted document storage and role-based access.
-3. Build evaluator marketplace/assignment workflow and credential verification.
-4. Add valuation service with auditable comp weighting and adjustment history.
-5. Generate signed PDF reports with immutable report versions.
-6. Add billing, portfolio imports, watchlists and sale alerts.
+## Production architecture to add next
+1. Authentication + role-based access (collector, specialist, appraiser, admin)
+2. PostgreSQL data model for objects, evidence, provenance events, comps, cases and decisions
+3. Secure object/document storage
+4. Licensed/authorized market-data connectors
+5. Search/vector layer for object and comp retrieval
+6. Valuation service with versioned methodology
+7. Immutable case audit log and specialist feedback dataset
+8. Report generation + e-signature
+9. Institution-specific CRM integration with strict tenant isolation
+10. Security, privacy, retention and compliance controls
 
-Important: automated market estimates should not be represented as authentication opinions or formal appraisals. Formal appraisal engagements should be handled by appropriately qualified professionals for the intended use and jurisdiction.
+Open `index.html` directly or deploy the folder to Vercel/Netlify.
